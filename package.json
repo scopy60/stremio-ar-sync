@@ -1,0 +1,19 @@
+{
+  "name": "stremio-arabic-autosync",
+  "version": "1.0.0",
+  "description": "Stremio addon: Arabic subtitles from SubDL, auto re-timed to match the English subtitle timing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "iconv-lite": "^0.6.3"
+  }
+}
